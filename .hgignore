@@ -1,0 +1,9 @@
+syntax: glob
+*~
+gui
+mcu
+*.dll
+*.o
+*.o.d
+*.hex
+*.elf
