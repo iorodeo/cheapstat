@@ -1,49 +1,49 @@
-Partlist exported from /home/wbd/work/iorodeo/products/cheapstat/CheapStat_111810/schematic/Schematic_v2.sch at 4/13/14 10:49 PM
+Partlist exported from /home/wbd/work/iorodeo/products/cheapstat/cheapstat/schematic/Schematic_v2.sch at 5/17/14 1:41 PM
 
-Part          Value            Device           Package                 Description                                                            
-ADC_JPR                        JP2E             JP2                     JUMPER                                                                 
-BAT                            PINHD-1X2        1X02                    PIN HEADER                                                             
-C1            100n             C-EUC0805        C0805                   CAPACITOR, European symbol                                             
-C2            100n             C-EUC0805        C0805                   CAPACITOR, European symbol                                             
-C3            100n             C-EUC0805        C0805                   CAPACITOR, European symbol                                             
-C4            10u              C-EUC0805        C0805                   CAPACITOR, European symbol                                             
-C5            100n             C-EUC0805        C0805                   CAPACITOR, European symbol                                             
-C6            10u              C-EUC0805        C0805                   CAPACITOR, European symbol                                             
-C7            56n              C-EUC0805        C0805                   CAPACITOR, European symbol                                             
-C8            1u               C-EUC0805        C0805                   CAPACITOR, European symbol                                             
-C11           1u               C-EUC0805        C0805                   CAPACITOR, European symbol                                             
-C12           1u               C-EUC0805        C0805                   CAPACITOR, European symbol                                             
-C13           10n              C-EUC0805        C0805                   CAPACITOR, European symbol                                             
-C14           100n             C-EUC0805        C0805                   CAPACITOR, European symbol                                             
-C15           1u               C-EUC0805        C0805                   CAPACITOR, European symbol                                             
-C16           100n             C-EUC0805        C0805                   CAPACITOR, European symbol                                             
-C17           10u              C-EUC0805        C0805                   CAPACITOR, European symbol                                             
-C18           10u              C-EUC0805        C0805                   CAPACITOR, European symbol                                             
-C20           1n               C-EUC0805        C0805                   CAPACITOR, European symbol                                             
-C21           1.5n             C-EUC0805        C0805                   CAPACITOR, European symbol                                             
-C22           10n              C-EUC0805        C0805                   CAPACITOR, European symbol                                             
-C23           100n             C-EUC0805        C0805                   CAPACITOR, European symbol                                             
-CELL                           PINHD-1X3        1X03                    PIN HEADER                                                             
-I-V-CONVERTER                  PINHD-1X2        1X02                    PIN HEADER                                                             
-IC1                            AT-XMEGA-XXA4-AU QFP80P1200X1200X120-44N ATxMega a4 Serie                                                       
-IC2           TLC2264D         TLC2264D         SO14                    OP AMP                                                                 
-IC3           FT232RL          FT232RL          SSOP28                  Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf
-IC4           AT25DF041A-SH-B  AT25DF041A-SH-B  SOIC8                   SPI bus serial EEPROM                                                  
-L1            FERRITE          WE-KIHQ_0805     WE-KI_0805_B            SMD Wire Wound Ceramic Inductor WE-KIHQ                                
-L2            10u              WE-KIHQ_0805     WE-KI_0805_B            SMD Wire Wound Ceramic Inductor WE-KIHQ                                
-L3            FERRITE          WE-KIHQ_0805     WE-KI_0805_B            SMD Wire Wound Ceramic Inductor WE-KIHQ                                
-L4            10u              WE-KIHQ_0805     WE-KI_0805_B            SMD Wire Wound Ceramic Inductor WE-KIHQ                                
-PDI                            PINHD-2X3        2X03                    PIN HEADER                                                             
-POWER                          JP2E             JP2                     JUMPER                                                                 
-R5            10k              R-US_R0805       R0805                   RESISTOR, American symbol                                              
-R6            10k              R-US_R0805       R0805                   RESISTOR, American symbol                                              
-R9            33k              R-US_R0805       R0805                   RESISTOR, American symbol                                              
-R10           73.2k            R-US_R0805       R0805                   RESISTOR, American symbol                                              
-R11           150k             R-US_R0805       R0805                   RESISTOR, American symbol                                              
-R12           165k             R-US_R0805       R0805                   RESISTOR, American symbol                                              
-S1            DG612            DG612            SOIC16                                                                                         
-TPS61097      DC-DCCONVERTER   DC-DCCONVERTER   SOT23-5                                                                                        
-U$1           EA_DOG-M_DISPLAY EA_DOG-M_DISPLAY E_DOG-M_DISPLAY                                                                                
-U$2           4DIRSWITCH       4DIRSWITCH       4DIRSWITCH                                                                                     
-U$3           FAN2501          FAN2501          SOT23-5                                                                                        
-X1            MINI-USB-        MINI-USB-        USB-CUSTOM              MINI USB-B Conector                                                    
+Part     Value            Device           Package                 Description                                                            
+ADC_JPR                   JP2E             JP2                     JUMPER                                                                 
+BAT                       PINHD-1X2        1X02                    PIN HEADER                                                             
+C1       100n             C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C2       100n             C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C3       100n             C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C4       10u              C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C5       100n             C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C6       10u              C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C7       56n              C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C8       1u               C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C11      1u               C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C12      1u               C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C13      10n              C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C14      100n             C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C15      1u               C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C16      100n             C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C17      10u              C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C18      10u              C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C20      1n               C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C21      1.5n             C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C22      10n              C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C23      100n             C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+CELL                      PINHD-1X3        1X03                    PIN HEADER                                                             
+I-V                       PINHD-1X2        1X02                    PIN HEADER                                                             
+IC1                       AT-XMEGA-XXA4-AU QFP80P1200X1200X120-44N ATxMega a4 Serie                                                       
+IC2      TLC2264D         TLC2264D         SO14                    OP AMP                                                                 
+IC3      FT232RL          FT232RL          SSOP28                  Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf
+IC4      AT25DF041A-SH-B  AT25DF041A-SH-B  SOIC8                   SPI bus serial EEPROM                                                  
+L1                        WE-KIHQ_0805     WE-KI_0805_B            SMD Wire Wound Ceramic Inductor WE-KIHQ                                
+L2       10u              WE-KIHQ_0805     WE-KI_0805_B            SMD Wire Wound Ceramic Inductor WE-KIHQ                                
+L3                        WE-KIHQ_0805     WE-KI_0805_B            SMD Wire Wound Ceramic Inductor WE-KIHQ                                
+L4       10u              WE-KIHQ_0805     WE-KI_0805_B            SMD Wire Wound Ceramic Inductor WE-KIHQ                                
+PDI                       PINHD-2X3        2X03                    PIN HEADER                                                             
+POWER                     JP2E             JP2                     JUMPER                                                                 
+R5       10k              R-US_R0805       R0805                   RESISTOR, American symbol                                              
+R6       10k              R-US_R0805       R0805                   RESISTOR, American symbol                                              
+R9       33k              R-US_R0805       R0805                   RESISTOR, American symbol                                              
+R10      73.2k            R-US_R0805       R0805                   RESISTOR, American symbol                                              
+R11      150k             R-US_R0805       R0805                   RESISTOR, American symbol                                              
+R12      165k             R-US_R0805       R0805                   RESISTOR, American symbol                                              
+S1       DG612            DG612            SOIC16                                                                                         
+TPS61097 DC-DC            DC-DCCONVERTER   SOT23-5                                                                                        
+U$1      EA_DOG-M_DISPLAY EA_DOG-M_DISPLAY E_DOG-M_DISPLAY                                                                                
+U$2      4DIRSWITCH       4DIRSWITCH       4DIRSWITCH                                                                                     
+U3       FAN2501          FAN2501          SOT23-5                                                                                        
+X1                        MINI-USB-        USB-CUSTOM              MINI USB-B Conector                                                    
