@@ -1,0 +1,28 @@
+QTY    Position            Description                   Vendor                Part #                     Notes
+==================================================================================================================================================
+1      IC2                 Quad Op Amp                   Mouser                595-TLC2264ID
+1      S1                  Quad SPST Switch (4 NO)       Mouser                781-DG612AEY-E3
+1      IC3                 USB-UART                      Mouser                895-FT232RL
+1      U3                  Linear Regulator              Mouser                512-FAN2501S33X_Q
+1      U1                  16x3 Display                  Mouser                790-EADOGM163WA              (original: 790-EADOGM163EA)
+1      U2                  4 direction switch            Mouser                688-SKQUAA
+1      X1                  USB Mini Type B connector     Mouser                154-15322-E
+2      C13,22              10 nF                         Mouser                80-C0805C103K1R7210
+1      C7                  56 nF                         Mouser                80-C0805C563K5R
+7      C1,2,3,5,14,16,23   100 nF                        Mouser                80-C0805C104M5U7210
+4      C4,6,17,18          10 uF                         Mouser                81-GRM219R60J106KE9D
+2      L2,4                10 uH inductor                Mouser                963-CBC2012T100M             (original: 810-MLZ2012E100MT)
+2      L1,3                Ferrite Bead                  Mouser                637-MCB0805F300PT-T          (original: MCB0805F400PT-T)
+1      R9                  33kohm (0.5%, 1/8W)           Mouser                71-TNPW080533K0DEEA
+2      R5,6                10kohm (0.5%, 1/8W)           Mouser                71-TNPW080510K0DEEA
+1      R12                 165kohm (0.1%,.1W)            Mouser                66-PFC08LF165K-B
+2      ADC_JPR             jumper                        Mouser                535-ME-100
+1      TPS61097            DC DC Converter               Mouser                595-TPS61097-33DBVT
+1      IC4                 Flash Chip                    Allied Electronics    R1100373
+1      IC1                 MCU                           DigiKey               ATXMEGA32A4-AURCT-ND
+4      C8,11,12,15         1 uF                          DigiKey               399-7342-1-ND
+1        --                Enclosure                     DigiKey               HM869-ND
+1        --                Power switch                  Mouser                540-SRB22A2FBBNN
+1        --                Battery Holder                Mouser                12BH324A-GR
+
+
