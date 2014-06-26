@@ -1,0 +1,7 @@
+* The fixture is used for holding the small plastic end cap while machining the
+hole for the power switch.
+
+* The gcode files .ngc are generated via .py file of the same name. 
+
+* re-generating the .ngc files requires py2gcode (https://bitbucket.org/iorodeo/py2gcode/src)
+
