@@ -11,7 +11,7 @@ from py2gcode import gcode_cmd
 #  hold in vise
 # ------------------------------------------------------------------------------
 
-feedrate = 22.0
+feedrate = 35.0
 safeZ = 0.25
 startZ = 0.0
 depth = 0.16
@@ -28,7 +28,8 @@ prog.add(gcode_cmd.FeedRate(feedrate))
 
 
 param = { 
-        'centerX'      : 1.9654,
+        #'centerX'      : 1.9654,
+        'centerX'      : 1.9995,
         'centerY'      : 0.2965,
         'width'        : 0.5,
         'height'       : 0.4,
@@ -47,11 +48,33 @@ usbBoundary = cnc_boundary.RectBoundaryXY(param)
 prog.add(usbBoundary)
 
 
+# Old wire hole
+# ------------------------------------------------
+#param = {
+#        #'centerX'       : 3.4387,
+#        'centerX'       : 3.4887,
+#        'centerY'       : 0.0,
+#        'width'         : 0.3,
+#        'height'        : 0.125,
+#        'depth'         : depth,
+#        'radius'       : 0.0,
+#        'startZ'       : startZ,
+#        'safeZ'        : safeZ,
+#        'toolDiam'     : toolDiam,
+#        'toolOffset'   : 'inside',
+#        'direction'    : 'ccw',
+#        'maxCutDepth'  : maxCutDepth,
+#        'startDwell'   : startDwell,
+#        }
+# -----------------------------------------------
+
+# New connector hole
 param = {
-        'centerX'       : 3.4387,
-        'centerY'       : 0.0,
-        'width'         : 0.3,
-        'height'        : 0.125,
+        #'centerX'       : 3.4387,
+        'centerX'       : 3.4887,
+        'centerY'       : 0.3215,
+        'width'         : 0.4,
+        'height'        : 0.35,
         'depth'         : depth,
         'radius'       : 0.0,
         'startZ'       : startZ,
