@@ -43,7 +43,7 @@ prog.add(pocket)
 
 prog.add(gcode_cmd.Space())
 
-prog.add(gcode_cmd.LinearFeed(**{'x': 0.0, 'y': 2.6, 'z': 4.0}))
+prog.add(gcode_cmd.RapidMotion(**{'x': 0.0, 'y': 1.5, 'z': 4.0}))
 
 prog.add(gcode_cmd.Space())
 

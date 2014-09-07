@@ -13,19 +13,19 @@ F 22.0
 ; Begin RectAnnulusPocketXY
 ; ------------------------------------------------------------
 ; startZ: 0.0
+; overlapFinish: 0.5
 ; direction: ccw
 ; startDwell: 2.0
+; depth: 0.08
 ; maxCutDepth: 0.02
 ; height: 0.508
-; overlapFinish: 0.5
-; safeZ: 0.15
-; overlap: 0.5
-; thickness: 0.125
 ; cornerCut: True
 ; width: 0.76
-; depth: 0.08
+; safeZ: 0.15
+; overlap: 0.5
 ; centerX: 0.0
 ; centerY: -0.04
+; thickness: 0.125
 ; toolDiam: 0.125
 
 ; RectAnnulusPocketXY: rapid move to safe z
@@ -135,6 +135,6 @@ G0 Z0.15000000
 ; ------------------------------------------------------------
 
 
-G1 X0.00000000 Y2.60000000 Z4.00000000
+G0 X0.00000000 Y1.50000000 Z4.00000000
 
 M2 (End program)
