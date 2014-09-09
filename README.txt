@@ -1,5 +1,4 @@
-CheapStat is an open source potentiostat originally designed by Aaron
-Rowe, Andrew Bonham, Michael Zimmer, Kevin Plaxco and colleagues at University of Califonia Santa
+CheapStat is an open source potentiostat originally designed by Aaron Rowe, Andrew Bonham, Michael Zimmer, Kevin Plaxco and colleagues at University of Califonia Santa
 Barbara (UCSB). The original design files can be found here 
 http://web.chem.ucsb.edu/~kwp/cheapstat/
 
