@@ -4,7 +4,7 @@ from py2gcode import cnc_boundary
 from py2gcode import cnc_pocket
 from py2gcode import gcode_cmd
 
-feedrate = 22.0
+feedrate = 40.0
 safeZ = 0.15
 startZ = 0.0
 depth = 0.08
@@ -22,7 +22,7 @@ prog.add(gcode_cmd.FeedRate(feedrate))
 
 param = {
         'centerX'       : 0.0,
-        'centerY'       : -0.040,
+        'centerY'       : -0.060,
         'width'         : 0.76,
         'height'        : 0.508,
         'depth'         : depth,
@@ -43,7 +43,7 @@ prog.add(pocket)
 
 prog.add(gcode_cmd.Space())
 
-prog.add(gcode_cmd.RapidMotion(**{'x': 0.0, 'y': 1.5, 'z': 4.0}))
+prog.add(gcode_cmd.RapidMotion(**{'x': 0.0, 'y': 1.5, 'z': 3.0}))
 
 prog.add(gcode_cmd.Space())
 
