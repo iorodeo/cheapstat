@@ -11,14 +11,14 @@ from py2gcode import gcode_cmd
 #  hold in vise
 # ------------------------------------------------------------------------------
 
-feedrate = 35.0
+feedrate = 40.0
 safeZ = 0.25
 startZ = 0.0
 depth = 0.16
 toolDiam = 0.125
 #depth = 0.02 
 #toolDiam = 0.001
-maxCutDepth = 0.02
+maxCutDepth = 0.04
 startDwell = 2.0
 
 prog = gcode_cmd.GCodeProg()

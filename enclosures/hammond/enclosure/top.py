@@ -4,14 +4,14 @@ from py2gcode import cnc_boundary
 from py2gcode import cnc_pocket
 from py2gcode import gcode_cmd
 
-feedrate = 22.0
+feedrate = 40.0
 safeZ = 0.5
 startZ = 0.0
 depth = 0.15
 toolDiam = 0.125
 #depth = 0.02 
 #toolDiam = 0.001
-maxCutDepth = 0.02
+maxCutDepth = 0.04
 startDwell = 2.0
 
 prog = gcode_cmd.GCodeProg()
