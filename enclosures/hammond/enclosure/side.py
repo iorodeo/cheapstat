@@ -11,21 +11,27 @@ from py2gcode import gcode_cmd
 #  hold in vise
 # ------------------------------------------------------------------------------
 
+visualize = False 
 feedrate = 40.0
 safeZ = 0.25
 startZ = 0.0
-depth = 0.16
-toolDiam = 0.125
-#depth = 0.02 
-#toolDiam = 0.001
+if visualize:
+    depth = 0.02 
+    toolDiam = 0.001
+else:
+    depth = 0.16
+    toolDiam = 0.125
 maxCutDepth = 0.04
 startDwell = 2.0
+
+xBackOff = 0
+yBackOff = 1.5
+zBackOff = 2.0
 
 prog = gcode_cmd.GCodeProg()
 prog.add(gcode_cmd.GenericStart())
 prog.add(gcode_cmd.Space())
 prog.add(gcode_cmd.FeedRate(feedrate))
-
 
 param = { 
         #'centerX'      : 1.9654,
@@ -88,6 +94,8 @@ param = {
 
 wireBoundary= cnc_boundary.RectBoundaryXY(param)
 prog.add(wireBoundary)
+
+prog.add(gcode_cmd.RapidMotion(x=xBackOff,y=yBackOff,z=zBackOff))
 
 prog.add(gcode_cmd.Space())
 prog.add(gcode_cmd.End(),comment=True)
