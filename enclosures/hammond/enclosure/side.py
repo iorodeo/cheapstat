@@ -95,7 +95,8 @@ param = {
 wireBoundary= cnc_boundary.RectBoundaryXY(param)
 prog.add(wireBoundary)
 
-prog.add(gcode_cmd.RapidMotion(x=xBackOff,y=yBackOff,z=zBackOff))
+if not visualize:
+    prog.add(gcode_cmd.RapidMotion(x=xBackOff,y=yBackOff,z=zBackOff))
 
 prog.add(gcode_cmd.Space())
 prog.add(gcode_cmd.End(),comment=True)
