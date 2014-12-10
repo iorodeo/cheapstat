@@ -1,5 +1,5 @@
 QTY    Position            Description                   Vendor                Part #                     Notes
-==================================================================================================================================================
+=================================================================================================================================================================
 1      IC2                 Quad Op Amp                   Mouser                595-TLC2264ID
 1      S1                  Quad SPST Switch (4 NO)       Mouser                781-DG612AEY-E3
 1      IC3                 USB-UART                      Mouser                895-FT232RL
@@ -18,11 +18,15 @@ QTY    Position            Description                   Vendor                P
 1      R12                 165kohm (0.1%,.1W)            Mouser                66-PFC08LF165K-B
 2      ADC_JPR             jumper                        Mouser                535-ME-100
 1      TPS61097            DC DC Converter               Mouser                595-TPS61097-33DBVT
-1      IC4                 Flash Chip                    Allied Electronics    R1100373
+1      IC4                 Flash Chip                    DigiKey               706-1188-ND                  (original: Allied Electronics Part # R1100373)
 1      IC1                 MCU                           DigiKey               ATXMEGA32A4-AURCT-ND
 4      C8,11,12,15         1 uF                          DigiKey               399-7342-1-ND
-1        --                Enclosure                     DigiKey               HM869-ND
-1        --                Power switch                  Mouser                540-SRB22A2FBBNN
-1        --                Battery Holder                Mouser                12BH324A-GR
+1      CELL                3x1 right-angle header        DigiKey               S1111EC-03-ND
+1      PDI                 3x2 pin header                DigiKey               952-2121-ND
+1                          Breakaway header, male        Digikey               A26513-40-ND                 Break off 2 sets of 3-pin & 1 set of 2-pin
+1      --                  Enclosure                     DigiKey               HM869-ND
+3      --                  1/4" long, 4-40 screws        McMaster-Carr         91249A105                    For mounting PCB into the enclosure
+1      --                  Power switch                  Mouser                540-SRB22A2FBBNN             Optional
+1      --                  Battery Holder                Mouser                12BH324A-GR                  Optional
 
 
