@@ -5,7 +5,7 @@ QTY    Position            Description                   Vendor                P
 1      IC3                 USB-UART                      Mouser                895-FT232RL
 1      U3                  Linear Regulator              Mouser                512-FAN2501S33X_Q
 1      U1                  16x3 Display                  Mouser                790-EADOGM163WA              (original: 790-EADOGM163EA)
-1      U2                  4 direction switch            Mouser                688-SKQUAA
+1      U2                  4 direction switch            Online components     SKQUAAA010                   (original: Mouser, 688-SKQUAA)
 2      C13,22              10 nF                         Mouser                80-C0805C103K1R7210
 1      C7                  56 nF                         Mouser                80-C0805C563K5R
 7      C1,2,3,5,14,16,23   100 nF                        Mouser                80-C0805C104M5U7210
