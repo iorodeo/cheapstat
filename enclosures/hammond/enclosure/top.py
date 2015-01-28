@@ -81,8 +81,11 @@ param = {
         'startDwell'   : startDwell,
         'cornerCut'    : False
         }
-
-pocket = cnc_pocket.RectAnnulusPocketXY(param)
+if visualize:
+    param['toolOffset'] = None
+    pocket = cnc_boundary.RectBoundaryXY(param)
+else:
+    pocket = cnc_pocket.RectAnnulusPocketXY(param)
 prog.add(pocket)
 
 if not visualize:
