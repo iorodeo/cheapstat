@@ -4,14 +4,18 @@ from py2gcode import cnc_boundary
 from py2gcode import cnc_pocket
 from py2gcode import gcode_cmd
 
+visualize = False 
 feedrate = 40.0
 safeZ = 0.15
 startZ = 0.0
-depth = 0.08
-toolDiam = 0.125
-#depth = 0.02
-#toolDiam = 0.001
-maxCutDepth = 0.02
+if visualize:
+    depth = 0.02
+    toolDiam = 0.001
+else:
+    depth = 0.08
+    toolDiam = 0.125
+
+maxCutDepth = 0.04
 startDwell = 2.0
 
 prog = gcode_cmd.GCodeProg()
@@ -43,7 +47,8 @@ prog.add(pocket)
 
 prog.add(gcode_cmd.Space())
 
-prog.add(gcode_cmd.RapidMotion(**{'x': 0.0, 'y': 1.5, 'z': 3.0}))
+if not visualize:
+    prog.add(gcode_cmd.RapidMotion(**{'x': 0.0, 'y': 1.5, 'z': 3.0}))
 
 prog.add(gcode_cmd.Space())
 

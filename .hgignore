@@ -7,3 +7,4 @@ mcu
 *.o.d
 *.hex
 *.elf
+*.swp
