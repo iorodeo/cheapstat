@@ -1,0 +1,90 @@
+Final							
+
+IC1    1	ATXMEGA32A4-AU	5.22	5.22	Mouser	MCU	TQFP-44	
+IC2    1	TLC2264ID	2.01	2.01	Mouser	Quad Op Amp	SOIC-14	.
+S1     1	DG612AEY-T1-E3	0.8	0.8	Mouser	Quad SPST Switch (4 NO)	SOIC-16 narrow	
+IC3    1	FT232RL	4.5	4.5	Mouser	USB-UART	SSOP-28	
+
+    1	FAN2501S33X_Q	0.28	0.28	Mouser	Linear Regulator	see datasheet	
+    1	EADOGM163EEA	11.93	11.93	Mouser	16x3 Display	see datasheet	
+    1	SKQUAAA010	1.5	1.5	Mouser	4 direction switch	see datasheet	
+    1	154-15322-E	0.51	0.51	Mouser	USB Mini Type B connector	see datasheet	
+    2	C0805C103K1RAC7210	0.05	0.1	Mouser	103 (0.01uF) 	805	
+    1	C0805C563K5RACTU	0.1	0.1	Mouser	56nF	805	
+    7	C0805C104M5UAC7210	0.02	0.14	Mouser	104 (0.1uF)	805	
+    3	C0805C105J4RAC7025	0.07	0.21	Mouser	105 (1uF) 	805	
+    4	GRM219R60J106KE19D	0.09	0.36	Mouser	10uF 	805	
+    2	GLCR2012T100M-HC 	0.21	0.42	Mouser	10uH 	805	
+    2	MCB0805F400PT-T	0.03	0.06	Mouser	Ferrite Bead	805	
+    12	22-28-5020	0.08	0.96	Mouser	PDI Header Pins + Cell	.1 pitch	
+    1	TNPW080533K0DEEA	0.1	0.1	Mouser	33kohm (0.5%, 1/8W)	805	
+    2	TNPW080510K0DEEA	0.11	0.22	Mouser	10kohm (0.5%, 1/8W)	805	
+    1	PFC-W0805LF-03-1653-B	0.7	0.7	Mouser	165kohm (0.1%,.1W)	805	
+    2	ME-100	0.15	0.3	Mouser	jumper		
+    1	PCB	16.9	16.9	4PCB	PCB Board		
+    							
+    Case							
+    1	1593YGY	5.35	5.35	Mouser	Case		
+    1	101-0110-EV	0.15	0.15	Mouser	12x12 mountain switch		
+    							
+    Misc							Battery Power and Flash Memory not currently used
+    1	TPS61097-33DBVT 	2.25	2.25	??	DC DC Converter	SOT-23	
+    1	SRB22A2FBBNN	0.75	0.75	Mouser	Power switch	see datasheet	
+    1	12BH324A-GR 	0.75	0.75	Mouser	Battery Holder	through hole?	
+    1	AT25DF041A-SH-B	1.15	1.15	Mouser	Flash Chip		
+
+
+ADC_JPR                        JP2E             JP2                     JUMPER                                                                 
+BAT                            PINHD-1X2        1X02                    PIN HEADER                                                             
+C1            100n             C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C2            100n             C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C3            100n             C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C4            10u              C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C5            100n             C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C6            10u              C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C7            56n              C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C8            1u               C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C11           1u               C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C12           1u               C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C13           10n              C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C14           100n             C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C15           1u               C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C16           100n             C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C17           10u              C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C18           10u              C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C20           1n               C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C21           1.5n             C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C22           10n              C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+C23           100n             C-EUC0805        C0805                   CAPACITOR, European symbol                                             
+CELL                           PINHD-1X3        1X03                    PIN HEADER                                                             
+I-V-CONVERTER                  PINHD-1X2        1X02                    PIN HEADER                                                             
+
+
+
+IC4           AT25DF041A-SH-B  AT25DF041A-SH-B  SOIC8                   SPI bus serial EEPROM                                                  
+L1            FERRITE          WE-KIHQ_0805     WE-KI_0805_B            SMD Wire Wound Ceramic Inductor WE-KIHQ                                
+L2            10u              WE-KIHQ_0805     WE-KI_0805_B            SMD Wire Wound Ceramic Inductor WE-KIHQ                                
+L3            FERRITE          WE-KIHQ_0805     WE-KI_0805_B            SMD Wire Wound Ceramic Inductor WE-KIHQ                                
+L4            10u              WE-KIHQ_0805     WE-KI_0805_B            SMD Wire Wound Ceramic Inductor WE-KIHQ                                
+PDI                            PINHD-2X3        2X03                    PIN HEADER                                                             
+POWER                          JP2E             JP2                     JUMPER                                                                 
+R5            10k              R-US_R0805       R0805                   RESISTOR, American symbol                                              
+R6            10k              R-US_R0805       R0805                   RESISTOR, American symbol                                              
+R9            33k              R-US_R0805       R0805                   RESISTOR, American symbol                                              
+R10           73.2k            R-US_R0805       R0805                   RESISTOR, American symbol                                              
+R11           150k             R-US_R0805       R0805                   RESISTOR, American symbol                                              
+R12           165k             R-US_R0805       R0805                   RESISTOR, American symbol                                              
+
+TPS61097      DC-DCCONVERTER   DC-DCCONVERTER   SOT23-5                                                                                        
+U$1           EA_DOG-M_DISPLAY EA_DOG-M_DISPLAY E_DOG-M_DISPLAY                                                                                
+U$2           4DIRSWITCH       4DIRSWITCH       4DIRSWITCH                                                                                     
+
+U$3           FAN2501          FAN2501          SOT23-5                                                                                        
+
+X1            MINI-USB-        MINI-USB-        USB-CUSTOM              MINI USB-B Conector                             
+
+
+#IC3           FT232RL          FT232RL          SSOP28                  Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf
+#S1            DG612            DG612            SOIC16                                                                                         
+#IC1                            AT-XMEGA-XXA4-AU QFP80P1200X1200X120-44N ATxMega a4 Serie                                                       
+#IC2           TLC2264D         TLC2264D         SO14                    OP AMP                                                                 
